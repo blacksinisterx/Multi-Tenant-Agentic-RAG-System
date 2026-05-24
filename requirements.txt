@@ -1,0 +1,22 @@
+# requirements.txt (snippet)
+chromadb==0.5.5
+sentence-transformers==3.0.1
+groq
+pyyaml
+pydantic>=2.6.0,<3
+tqdm
+tabulate
+pytest
+
+# LangChain + LlamaIndex + ChromaDB integration (mandatory for assignment)
+langchain>=0.1.0
+langchain-chroma>=0.1.0
+langchain-community>=0.0.20
+langchain-text-splitters>=0.0.1
+langchain-huggingface>=0.3.0
+
+# LlamaIndex support integration
+llama-index>=0.9.0
+llama-index-vector-stores-chroma>=0.1.0
+llama-index-embeddings-langchain>=0.1.0
+
